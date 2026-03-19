@@ -1,0 +1,10 @@
+tupla = (1, 2, 3, 2, 2)
+
+print(tupla.count(2))
+print(tupla.index(3)) 
+lista = list(tupla)
+print(lista)
+lista.append(4)
+print(lista)
+tupla = tuple(lista)
+print(tupla)
