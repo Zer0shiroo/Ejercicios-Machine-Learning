@@ -1,0 +1,12 @@
+frase = input("Dime una frase y yo te ocntare cada vocal ")
+a = frase.count("a")
+e = frase.count("e")
+i = frase.count("i")
+o = frase.count("o")
+u = frase.count("u")
+
+print(f"Letra a {a}")
+print(f"Letra e {e}")
+print(f"Letra i {i}")
+print(f"Letra o {o}")
+print(f"Letra u {u}")
